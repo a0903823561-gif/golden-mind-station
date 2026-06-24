@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <title>智慧超市</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>智慧超市 🛒</h1>
+  <div id="instructions">
+    <h2>玩法說明 📖</h2>
+    <p>超市裡會隨機出現商品，請在時限內點擊便宜商品（價格 ≤ 30 元）。</p>
+    <button onclick="startGame()">開始遊戲</button>
+    <button onclick="goBackMenu()">返回選單</button>
+    <button onclick="goBackIntro()">返回導入頁面</button>
+  </div>
+
+  <div id="target"></div>
+  <div id="game-area" style="display:none;">
+    <div id="game-board"></div>
+    <div id="result"></div>
+  </div>
+
+  <script src="market.js"></script>
+  <script src="common.js"></script>
+</body>
+</html>

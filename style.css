@@ -1,0 +1,356 @@
+/* 全域背景 */
+body {
+  background-color: #000;   /* 黑底 */
+  color: #FFD700;           /* 金色文字 */
+  font-family: "Microsoft JhengHei", sans-serif;
+  text-align: center;
+}
+
+/* 首頁 Logo */
+.intro-logo img {
+  display: block;
+  margin: 40px auto;
+  max-width: 800px;
+  height: auto;
+}
+
+/* 首頁標題 */
+.intro-title {
+  font-size: 72px;
+  font-weight: bold;
+  margin: 40px;
+  color: #FFD700;
+}
+
+/* 首頁按鈕 & 選單按鈕 */
+.intro-button,
+.menu-button {
+  font-size: 64px;
+  padding: 24px 48px;
+  margin: 30px auto;
+  cursor: pointer;
+  display: block;
+  width: 85%;
+  max-width: 600px;
+  background-color: #222;   /* 深灰底，搭配黑色背景 */
+  color: #FFD700;           /* 金色字 */
+  border: none;
+  border-radius: 12px;
+}
+
+.intro-button:hover,
+.menu-button:hover {
+  background-color: #444;   /* hover 時更亮 */
+  color: #fff;              /* hover 時白字 */
+}
+
+
+#instructions button:hover,
+#menu button:hover,
+#intro button:hover {
+  background-color: #FFA500;
+  color: #fff;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #1E3A8A;
+  color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  white-space: pre-line;
+}
+
+.card:hover {
+  background-color: #FFA500;
+}
+
+#result {
+  margin: 30px auto;
+  font-size: 28pt;
+  color: #FFD700;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+}
+
+/* 題目顯示區 */
+#target {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px;
+  color: #FFD700;
+  text-align: center;
+}
+
+/* 遊戲區域 */
+#game-board {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: #222;
+  overflow: hidden;
+}
+
+/* 結果顯示 */
+#result {
+  font-size: 36px;
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* 按鈕樣式 */
+button {
+  font-size: 24px;
+  padding: 12px 24px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* 水果與燈號圖示 */
+span {
+  font-size: 80px;
+}
+
+/* 商品文字 */
+div.item {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* 選單標題 */
+h1 {
+  font-size: 72px;       /* 主標題放大但不過大 */
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+  color: #FFD700;
+}
+
+/* 選單按鈕 */
+.menu-button {
+  font-size: 64px;       /* 按鈕字體放大到 64px */
+  padding: 24px 48px;
+  margin: 20px;
+  cursor: pointer;
+  display: block;
+  width: 85%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.menu-button:hover {
+  background-color: #666;
+}
+
+/* 首頁標題 */
+.intro-title {
+  font-size: 72px;       /* 首頁主標題放大 */
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+  color: #FFD700;
+}
+
+/* 首頁按鈕 */
+.intro-button {
+  font-size: 64px;       /* 首頁按鈕字體放大 */
+  padding: 24px 48px;
+  margin: 20px;
+  cursor: pointer;
+  display: block;
+  width: 85%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.intro-button:hover {
+  background-color: #666;
+}
+
+/* 首頁 Logo */
+.intro-logo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;   /* 控制最大寬度 */
+  height: auto;
+}
+
+/* 首頁標題 */
+.intro-title {
+  font-size: 72px;    /* 放大標題字體 */
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+  color: #FFD700;
+}
+
+/* 首頁按鈕 */
+.intro-button {
+  font-size: 64px;    /* 放大按鈕字體 */
+  padding: 24px 48px;
+  margin: 20px;
+  cursor: pointer;
+  display: block;
+  width: 85%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.intro-button:hover {
+  background-color: #666;
+}
+
+.intro-page {
+  background-color: #000; /* 黑底 */
+  text-align: center;
+}
+
+.intro-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 1000px; /* 放大圖片 */
+  height: auto;
+}
+
+.intro-button {
+  font-size: 64px;
+  padding: 24px 48px;
+  margin-top: 40px;
+  cursor: pointer;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.intro-button:hover {
+  background-color: #666;
+}
+
+/* 首頁背景 */
+.intro-page {
+  background-color: #000;
+  text-align: center;
+}
+
+/* 首頁 Logo */
+.intro-logo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 1000px;  /* 放大 Logo */
+  height: auto;
+}
+
+/* 首頁按鈕 */
+.intro-button {
+  font-size: 64px;    /* 放大按鈕字體 */
+  padding: 24px 48px;
+  margin-top: 40px;
+  cursor: pointer;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.intro-button:hover {
+  background-color: #666;
+}
+
+/* 首頁背景 */
+.intro-page {
+  background-color: #000;
+  text-align: center;
+}
+
+/* 首頁 Logo */
+.intro-logo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;   /* 放大 Logo */
+  height: auto;
+}
+
+/* 首頁標題 */
+.intro-title {
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+  color: #FFD700;
+}
+
+/* 首頁按鈕 */
+.intro-button {
+  font-size: 64px;
+  padding: 24px 48px;
+  margin-top: 40px;
+  cursor: pointer;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.intro-button:hover {
+  background-color: #666;
+}
+
+/* 選單背景 */
+.menu-page {
+  background-color: #000;   /* 黑底 */
+  text-align: center;
+}
+
+/* 選單標題 */
+.menu-title {
+  font-size: 72px;          /* 放大標題字體 */
+  font-weight: bold;
+  margin: 40px;
+  color: #FFD700;           /* 金色文字 */
+}
+
+/* 選單按鈕 */
+.menu-button {
+  font-size: 64px;          /* 放大按鈕字體 */
+  padding: 24px 48px;
+  margin: 30px auto;
+  cursor: pointer;
+  display: block;
+  width: 85%;
+  max-width: 600px;
+  background-color: #222;   /* 深灰底 */
+  color: #FFD700;           /* 金色字 */
+  border: none;
+  border-radius: 12px;
+}
+
+.menu-button:hover {
+  background-color: #444;   /* hover 時更亮 */
+  color: #fff;              /* hover 時白字 */
+}
